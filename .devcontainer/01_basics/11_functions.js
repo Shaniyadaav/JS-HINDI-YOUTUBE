@@ -9,16 +9,32 @@ function sayMyName(){
 //sayMyName()
 
 function addTwoNumbers(number1,number2){
-    console.log(number1+number2);
+    //console.log(number1+number2);
 }
 addTwoNumbers(3,4)
 
-
+/******************************************** */
 
 function addTwoNumbers(number1, number2){
     return number1+number2
 }
-
 const result = addTwoNumbers(3,5)
+//console.log(result);
 
-console.log("Result: ", result);
+////**************************************** */
+
+function myFunction(a, b){
+    return a/b;
+}
+const value= myFunction(8,4);
+   //console.log(value);
+
+///******************************************* */
+
+function multiply(b,c){
+    return b * c;
+}
+const output = multiply(5,2);
+console.log(output);
+
+
