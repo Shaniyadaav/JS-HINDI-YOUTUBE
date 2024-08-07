@@ -35,6 +35,26 @@ function multiply(b,c){
     return b * c;
 }
 const output = multiply(5,2);
-console.log(output);
+//console.log(output);
+
+
+
+
+
+function loginUserMessage(username){
+    return '${username} just logged in'
+}
+
+//console.log(loginUserMessage("hitesh"))
+
+
+//*************REST OPERATOR */
+
+function calculateCartPrice(...num1){
+    return num1
+}
+//console.log(calculateCartPrice(200, 300, 400))
+
+
 
 
